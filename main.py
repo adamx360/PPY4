@@ -2,7 +2,7 @@ import math
 
 
 def zad1(floorWidth, floorHeight, panelWidth, panelHeight, pack):
-    floorArea = floorWidth * floorHeight
+    floorArea = floorWidth * floorHeight * 1.1
     panelArea = panelWidth * panelHeight
     return "" + str(math.ceil(floorArea / panelArea / pack)) + ""
 
