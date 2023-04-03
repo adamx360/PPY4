@@ -10,7 +10,7 @@ def zad1(floorWidth, floorHeight, panelWidth, panelHeight, pack):
 def zad2(*numbers):
     for i in numbers:
         prime = True
-        if (i == 0 or i % 2 == 0) and i != 2:
+        if (i == 0 or i == 1 or i % 2 == 0) and i != 2:
             prime = False
         for j in range(2, int(i / 2)):
             if i % j == 0:
